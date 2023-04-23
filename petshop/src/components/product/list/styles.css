@@ -2,31 +2,34 @@
     margin-top: 10px;
 
 }
-.product-list .badge{
+
+.product-list .badge {
     margin-bottom: 0px;
     color: #fff;
     padding: 7px;
     background-color: rgb(79, 79, 219);
 
 }
-.product-list img{
+
+.product-list img {
     border: 1px solid #dcdcdc;
     border-radius: 5px;
     padding: 10px;
 
 }
+
 .product-list small {
     margin-top: 0;
-    line-height: 15px;    
+    line-height: 15px;
     font-size: 13px;
 }
-.product-list button{
-    
-    
-    padding: 1px 14px;
-    font-size: 25px;
-    margin-top: 20px;
-    max-width: 20px;
-    max-height: 20px;
 
+.btn {
+    position: absolute;
+    background-color: var(--primary);
+    color: #fff;
+    right: 30px;
+    top: 150px;
+    width: 45px;
+    height: 45px;
 }

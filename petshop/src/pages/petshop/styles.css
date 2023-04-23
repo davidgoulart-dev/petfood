@@ -23,5 +23,12 @@
 }
 
 .badge-primary {
+    background: rgba(80, 62, 157, 0.1);
+    color: #503E9D;
        
+}
+.petshop-image{
+    border-radius: 5px;
+    margin-bottom: 20px;
+
 }

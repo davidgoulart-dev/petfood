@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 :root {
-    --primary: #06D6A0;
-    --secondary: #FA643D;
+    --primary: rgb(6, 214, 160);
+    --secondary: rgb(250, 100, 61);
 
 }
 html, body {
@@ -29,11 +29,11 @@ input[type='date']:disabled {
 
 }
 .bg-primary {
-    background-color: var(--primary) !important;
+    background-color: rgb(var(--primary)) !important;
 }
 
 .bg-secondary {
-    background-color: var(--secondary) !important;
+    background-color: rgb(var(--secondary)) !important;
 }
 .btn {
     font-size: 15px;
@@ -45,8 +45,8 @@ input[type='date']:disabled {
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary:disabled{
-    background-color: var(--primary) !important;
-    border-color: var(--primary) !important;
+    background-color: rgb(var(--primary)) !important;
+    border-color: rgb(var(--primary)) !important;
 
 }
 
@@ -55,8 +55,8 @@ input[type='date']:disabled {
 .btn-secondary:focus,
 .btn-secondary:active,
 .btn-secondary:disabled{
-    background-color: var(--secondary) !important;
-    border-color: var(--secondary) !important;
+    background-color: rgb(var(--secondary)) !important;
+    border-color: rgb(var(--secondary)) !important;
 
 }
 
@@ -65,7 +65,7 @@ input[type='date']:disabled {
 
 
 .bg-primary {
-    background-color: var(--primary) !important;
+    background-color: rgb(var(--primary)) !important;
 }
 .box {
     background: #fff;
