@@ -1,0 +1,22 @@
+.section-title {
+    border-bottom: 3px solid var(--primary);
+    padding-bottom: 7px;
+    margin: 20px 0px;
+    display: inline-block;
+
+}
+#price{
+    display: flex;
+    justify-content: space-between;
+    
+}
+b{
+    font-size: 26px;
+}
+#btn-checkout{
+    background-color: var(--primary);
+}
+.box-sidebar{
+    max-height: 500px;
+    overflow-y: auto;
+}
