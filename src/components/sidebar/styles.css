@@ -12,3 +12,11 @@
     transition: all 0.3s ease;
     z-index: 999;
 }
+.close-icon{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+}
