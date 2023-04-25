@@ -1,0 +1,14 @@
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 500px;
+    background-color: #fff;
+    color: #000000;
+    padding: 20px;
+    font-size: 16px;
+    overflow-y: scroll;
+    transition: all 0.3s ease;
+    z-index: 999;
+}

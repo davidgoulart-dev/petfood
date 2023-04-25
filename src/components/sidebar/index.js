@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import "./styles.css"
-import  {Dock} from 'react-dock';
+
 import  Product from "../product/list"
 const Sidebar = () => {
    const [opened, setOpened] = useState(false)
@@ -10,10 +10,8 @@ const Sidebar = () => {
     })
    }, [])
    return (
-        <Dock
-        position='right'
-        isVisible={opened}
-        onVisibleChange={(visible) => setOpened(visible)}
+        <div
+       
         >
             <div className="container-fluid h-100 pt-4 sidebar">
                 <h5>Minha Sacola (5)</h5>
@@ -32,7 +30,7 @@ const Sidebar = () => {
 
             </div>
 
-        </Dock>
+        </div>
     )
 }
 

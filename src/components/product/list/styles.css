@@ -24,12 +24,12 @@
     font-size: 13px;
 }
 
-.btn {
+.btn{
     position: absolute;
     background-color: var(--primary);
     color: #fff;
-    right: 30px;
+    right: 32px;
     top: 150px;
-    width: 45px;
-    height: 45px;
+    max-width: 35px;
+    max-height: 35px;
 }
