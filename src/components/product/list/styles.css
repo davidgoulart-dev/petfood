@@ -24,12 +24,24 @@
     font-size: 13px;
 }
 
-.btn{
-    position: absolute;
-    background-color: var(--primary);
+
+
+.btn-produto {
+    background-color: var(--secondary) !important;
     color: #fff;
-    right: 32px;
-    top: 150px;
     max-width: 35px;
     max-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    z-index: 10;
+    border: none;
 }
+
+.product-list-item {
+    position: relative;
+}
+
+
+

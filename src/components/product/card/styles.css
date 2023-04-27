@@ -1,8 +1,13 @@
 .product {
     margin-bottom: 50px;
-    position: relative;
-
 }
+
+.product-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
 .product img {
     border: 1px solid #dcdcdc;
     border-radius: 5px;
@@ -10,19 +15,32 @@
     padding: 20px;
     max-height: 210px;
     width: 100%;
-    position: relative;
 }
-.product .badge{
-    margin-bottom: 0px;
 
+.product .badge {
+    margin-bottom: 0px;
 }
+
 .product small {
     margin-top: 0px;
     line-height: 15px;
     display: block;
     font-size: 16px;
 }
-.product button {
-    
-   
-}
+/* O bootstrap tava sobrescrevendo o meu estilo de uma forma ruím, por isso o !important */
+.product button.custom-add-button {
+    position: absolute;
+    background-color: var(--primary) !important;
+    color: #fff !important;
+    top: 45%;
+    left: 80%;
+    max-width: 35px;
+    max-height: 35px;
+    border-radius: 50%;
+  }
+  
+  .product button.custom-add-button:hover {
+    background-color: var(--primary) !important;
+    color: #fff !important;
+  }
+  

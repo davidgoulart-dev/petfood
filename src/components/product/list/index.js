@@ -18,8 +18,11 @@ const Product = () => {
                     </small>
 
                 </div>
-                <div className="col-3">
-                    <button className="btn btn-primary rounded-circle btn-produto">-</button>
+                <div className="col-3 product-list-item">
+                <button className="btn rounded-circle btn-produto">-</button>
+
+
+
                 </div>
 
             </div>
