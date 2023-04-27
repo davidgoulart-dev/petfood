@@ -21,6 +21,18 @@ const Sidebar = (  ) => {
                             </div>
 
 
+                            <div className='row footer align-items-end '>
+                                <div className='col-12 d-flex justify-content-between align-itens-center'>
+                                    <b className='d-inline-block'>Total</b>
+                                    <h3 className='d-inline-block'>R$ 90,00</h3>
+
+                                </div>
+                                <button className=' btn-finalizar h-50 align-items-center'>Finalizar Compra</button>
+
+
+                            </div>
+
+
 
                 </div>
 

@@ -4,7 +4,7 @@ import './styles.css'
 import Sidebar from '../sidebar'
 import React, {  useState } from "react";
 
-const Header = ({whiteVersion}) => {
+const Header = ({whiteVersion, hideCart}) => {
    
     const [sidebar, setSidebar] = useState(false);
     const showSidebar = () => setSidebar(!sidebar);
@@ -14,7 +14,7 @@ const Header = ({whiteVersion}) => {
         <header className="py-4 px-4 text-center">
             <img src={whiteVersion ? Logo : Logogreen} className="img-fluid"/>
         </header>
-        <button className='cart-button' onClick={showSidebar}> <span className="mdi mdi-cart "> 2 ítens</span></button>
+        {!hideCart && (<button className='cart-button' onClick={showSidebar}> <span className="mdi mdi-cart "> 2 ítens</span></button>)}
        {sidebar ? <Sidebar/> : null}
     </div>
     )
