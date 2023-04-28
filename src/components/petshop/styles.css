@@ -1,0 +1,36 @@
+.petshop {
+    list-style: none;
+    padding: 7px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border-bottom: 3px;
+}
+.petshop img{
+    width: 80px;
+    border-radius: 5px;
+    vertical-align: top;
+}
+.petshop b{
+   margin-bottom: 0px;
+}
+.petshop-infos span{
+    vertical-align: middle;
+    color: #626264;
+}
+.petshop-infos span.mdi-star{
+    color: #FFD700;
+}
+.petshop-infos text{
+    color:#626264;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 13px;
+}
+#container{
+    padding-left: 20px;
+}
+.nome-vendedor{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
