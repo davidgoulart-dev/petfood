@@ -1,9 +1,10 @@
 import Illustration from '../../assets/illustration.png'
 import Header from '../../components/header';
+import './styles.css'
 
 const Cadastro = () => {
     return (
-        <div className="container-fluid h-100 bg-primary">
+        <div className="container-fluid h-100 background">
             <Header whiteVersion hideCart />
             <div className='row'>
             <div className="col-6 text-right my-auto">

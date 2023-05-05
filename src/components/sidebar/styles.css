@@ -10,7 +10,7 @@
     font-size: 16px;
     overflow-y: scroll;
     transition: all 0.3s ease;
-    z-index: 999;
+    z-index: 9999;
 }
 .close-icon{
     position: absolute;
