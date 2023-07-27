@@ -1,5 +1,6 @@
 import Header from "../../components/header";
 import Product from "../../components/product/card";
+import petlovelogo from "../../assets/petlove_logo.webp"
 import "./styles.css"
 
 
@@ -12,7 +13,7 @@ const Petshop = () => {
                 <div className="container mt-4">
                     <div className="row">
                         <div className="col-2" id="petshop-infos">
-                            <img src="https://www.petlove.com.br/static/uploads/banner_image/image/44490/petlove_logo.png" alt="Logo" className="img-fluid petshop-image" />
+                            <img src={petlovelogo} alt="Logo" className="img-fluid petshop-image" />
                             <b className="nome-vendedor">Petlove</b>
                             <br />
                             <span className="mdi mdi-star"></span>
