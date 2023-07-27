@@ -1,10 +1,12 @@
 import './styles.css'
+import petlove_logo from '../../assets/petlove_logo.webp'
+
 const Petshop = () => {
     return (
         <li className="petshop d-inline-block">
             <div className="d-flex align-items-start">
                 <div className="d-inline-block">
-                    <img src="https://www.petlove.com.br/static/uploads/banner_image/image/44490/petlove_logo.png" alt="Logo" className="img-fluid petshop-image" />
+                    <img src={petlove_logo} />
                 </div>
                 <div id='container' >
                 <div className="d-inline-block">
