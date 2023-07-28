@@ -7,7 +7,8 @@ app.set('port', process.env.PORT || 8000);
 app.use(cors());
 app.use(morgan('dev'));
 app.use(express.json());
-
+//database
+require('./database')
 
 app.use('/', require('./routes/main.routes'));
 

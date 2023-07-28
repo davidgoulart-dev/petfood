@@ -1,0 +1,86 @@
+[
+    {
+        "nome": "PEDIGREE",
+        "logo": "https://logodownload.org/wp-content/uploads/2019/09/pedigree-logo-5.png",
+        "categoria": "$$$",
+        "destaque": 1,
+        "location": {
+            "lat": -23.561684,
+            "lng": -46.625378
+        },
+        "produtos": [
+            {
+                "nome": "Ração Pedigree Nutrição Essencial Cães Adultos -15 Kg",
+                "capa": "https://www.petlove.com.br/images/products/228571/product/Ra%C3%A7%C3%A3o_Seca_Pedigree_Nutri%C3%A7%C3%A3o_Essencial_Carne_para_C%C3%A3es_Adultos_2513328_1.jpg?1627729393",
+                "preco": 17.8,
+                "avaliacoes": 4.7
+            },
+            {
+                "nome": "Ração Pedigree Equilíbrio Natural para Cães Adultos - 3 Kg",
+                "capa": "https://www.petlove.com.br/images/products/228572/product/Racao_Seca_Pedigree_Equilibrio_Natural_para_Caes_Adultos_2.jpg?1627729493",
+                "preco": 23.2,
+                "avaliacoes": 4.9
+            },
+            {
+                "nome": "Pedigree Biscrok Cães Adultos - 500g",
+                "capa": "https://www.petlove.com.br/images/products/228573/product/Biscoito_Pedigree_Biscrok_Caes_Adultos_1.jpg?1627729493",
+                "preco": 8.2,
+                "avaliacoes": 4.6
+            },
+            {
+                "nome": "Pedigree Sachê Cordeiro ao Molho - 100g",
+                "capa": "https://www.petlove.com.br/images/products/228574/product/Pedigree_Sache_Cordeiro_ao_Molho_1.jpg?1627729493",
+                "preco": 2.5,
+                "avaliacoes": 4.7
+            },
+            {
+                "nome": "Pedigree Marrobone Raças Pequenas - 500g",
+                "capa": "https://www.petlove.com.br/images/products/228575/product/Pedigree_Marrobone_Racas_Pequenas_1.jpg?1627729493",
+                "preco": 14.7,
+                "avaliacoes": 4.8
+            }
+        ]
+    },
+    {
+        "nome": "ROYAL CANIN",
+        "logo": "https://logodownload.org/wp-content/uploads/2019/04/royal-canin-logo.png",
+        "categoria": "$$$$",
+        "destaque": 0,
+        "location": {
+            "lat": -23.567888,
+            "lng": -46.648995
+        },
+        "produtos": [
+            {
+                "nome": "Ração Royal Canin Medium Adult para Cães Adultos - 15 Kg",
+                "capa": "https://www.petlove.com.br/images/products/228573/product/Racao_Seca_Royal_Canin_Medium_Adult_para_Caes_Adultos_1.jpg?1627729593",
+                "preco": 79.8,
+                "avaliacoes": 4.8
+            },
+            {
+                "nome": "Ração Royal Canin Maxi Junior para Cães Filhotes - 15 Kg",
+                "capa": "https://www.petlove.com.br/images/products/228574/product/Racao_Seca_Royal_Canin_Maxi_Junior_para_Caes_Filhotes_2.jpg?1627729693",
+                "preco": 82.9,
+                "avaliacoes": 4.9
+            },
+            {
+                "nome": "Ração Royal Canin Canine Veterinary Diet Obesity - 1.5 Kg",
+                "capa": "https://www.petlove.com.br/images/products/228576/product/Racao_Royal_Canin_Canine_Veterinary_Diet_Obesity_1.jpg?1627729693",
+                "preco": 57.4,
+                "avaliacoes": 4.8
+            },
+            {
+                "nome": "Ração Royal Canin Feline Veterinary Diet Urinary S/O - 1.5 Kg",
+                "capa": "https://www.petlove.com.br/images/products/228577/product/Racao_Royal_Canin_Feline_Veterinary_Diet_Urinary_S_O_1.jpg?1627729693",
+                "preco": 67.9,
+                "avaliacoes": 4.8
+            },
+            {
+                "nome": "Ração Royal Canin Persian para Gatos Adultos - 7.5 Kg",
+                "capa": "https://www.petlove.com.br/images/products/228578/product/Racao_Royal_Canin_Persian_para_Gatos_Adultos_1.jpg?1627729693",
+                "preco": 169.9,
+                "avaliacoes": 4.9
+            }
+        ]
+    }
+]
