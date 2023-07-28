@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const URI = 'mongodb://localhost/petfood';
+const URI = 'mongodb://127.0.0.1/petfood';
 
 mongoose.set('debug', true  );
 // database connection
