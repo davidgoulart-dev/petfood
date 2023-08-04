@@ -1,3 +1,6 @@
+import { produce } from 'immer'
+
+
 const INITIAL_STATE = {
     custumer: {},
 }
@@ -5,7 +8,9 @@ const INITIAL_STATE = {
 function shop (state = INITIAL_STATE , action) {
     switch(action.type) {
         case 'SET_CUSTUMER': {
-            //LÓGICA  
+            return produce(state, (draft) => {
+                draft.custumer = action.custumer
+            }) 
         }
         default:
             return state;

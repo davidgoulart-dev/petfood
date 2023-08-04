@@ -1,3 +1,25 @@
 .background {
     background-color: rgb(6, 214, 160);
 }
+
+button {
+    position: relative;
+    z-index: 9999;
+    background-color: #ff0000; 
+    color: #ffffff; 
+    border: none; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.custom-button {
+    background-color: #FA643D !important; 
+    color: #ffffff;
+    margin-left: 13px;
+    margin-top: 20px;
+    width: 300px;
+}
