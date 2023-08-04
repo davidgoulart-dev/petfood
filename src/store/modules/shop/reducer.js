@@ -1,4 +1,6 @@
-const INITIAL_STATE = {}
+const INITIAL_STATE = {
+    custumer: {},
+}
 
 function shop (state = INITIAL_STATE , action) {
     switch(action.type) {
@@ -9,3 +11,5 @@ function shop (state = INITIAL_STATE , action) {
             return state;
     }
 }
+
+export default shop;
