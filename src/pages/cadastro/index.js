@@ -2,8 +2,11 @@ import Illustration from '../../assets/illustration.png'
 import Header from '../../components/header';
 import './styles.css'
 import { useState } from 'react'
+import { useDispatch } from 'react-redux'
+import { setCustomer as setStoreCustomer } from '../../store/modules/shop/actions'
 
 const Cadastro = () => {
+    const dispatch = useDispatch();
     const [custumer, setCustumer] = useState({
         "phones": {
             "home_phone": {
@@ -25,7 +28,7 @@ const Cadastro = () => {
         "document": ""
     });
     const goToCheckout = () => {
-        console.log(custumer)
+        dispatch(setStoreCustomer(custumer))
     }
 
     const handleInputChange = (e, field) => {
